@@ -25,7 +25,7 @@ module.exports = {
         new ModuleFederationPlugin({
             name: 'app',
             remotes: {
-                uikit: '@uikit//localhost:8002/remoteEntry.js',
+                uikit: 'uikit@//localhost:8002/remoteEntry.js',
             },
             shared: { react: { singleton: true }, 'react-dom': { singleton: true } },
         }),
