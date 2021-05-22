@@ -7,7 +7,7 @@ export default function App() {
     return (
         <div>
             <h1>Empty React App</h1>
-            <Button>rabotaet</Button>
+            <Button>Button from another app!</Button>
         </div>
     );
 }
