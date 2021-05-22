@@ -27,8 +27,7 @@ module.exports = {
             library: { type: 'var', name: 'uikit' },
             filename: 'remoteEntry.js',
             exposes: {
-                './Button': './components/Button',
-                './ButtonStyles': './styles/Button.scss'
+                './Button': './components/Button'
             },
             shared: { react: { singleton: true }, 'react-dom': { singleton: true } },
         }),
