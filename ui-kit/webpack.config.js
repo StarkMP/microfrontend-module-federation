@@ -28,6 +28,7 @@ module.exports = {
             filename: 'remoteEntry.js',
             exposes: {
                 './Button': './components/Button',
+                './ButtonStyles': './styles/Button.scss'
             },
             shared: { react: { singleton: true }, 'react-dom': { singleton: true } },
         }),
